@@ -1,0 +1,27 @@
+.footer{
+    background-color: var(--primary-color);
+    height: 300px;
+    color: var(--secondary-color);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    /* padding-top: 40px; */
+}
+.icon-2{
+    gap:10px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.div1{
+    justify-content: space-between;
+}
+@media screen and (max-width:768px){
+    .footer{
+     font-size:0.4rem;
+     padding-left: 5px;
+     padding-right: 5px;
+    
+    }
+}
+    

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:black;
+    --secondary-color:white;
+    --box-shadow-color:rgba(0, 0, 0, 0.1);
+    --box-shadow-card:0px 0px 15px -5px;
+    --button-color:#36454F;
+    --background-color:rgb(49, 49, 50);
+    --background2-color:rgb(49,49,50,0.6);
+    --box-shadow-color:rgb(53, 50, 50);
+}
+
+/* Utility class */
+.flex{
+    display: flex;
+    
+}
+.text-area{
+    padding-left: 20px;
+}
+.text-part{
+    width: 500px;
+    padding-top: 20px;
+    font-size: 1.1rem;
+} 
+.btn-1{
+    /* margin-bottom: 30px; */
+    padding: 5px;
+    justify-content: last baseline;
+    width: auto;
+    background-color:var(--primary-color);
+    color:var(--secondary-color);
+    text-align: center;
+    /* height: 40px; */
+    box-shadow: var(--box-shadow-color);
+    margin-bottom: 30px;
+}
+.sec-1{
+    margin-left:5%;
+     width: 85%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 8% 0 8%;
+}
+/* .btn-1 i{
+    color: var(--primary-color);
+} */
+/* .profile-name{
+    color: rgb(98, 36, 36);
+} */
+.profile-container{
+    margin: 10px 30px;
+    padding: 5px;
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
+    overflow-wrap:normal;
+    
+}
+.about-heading{
+    margin-bottom: -5px;
+}
+/* Resets */
+nav{
+    height: 60px;
+    background-color:rgb(238, 241, 246); 
+    justify-content: space-between;
+    
+}
+li{
+    /* list-style: none; */
+    padding-top: 15px;
+    /* height: 60px; */
+    /* position: relative; */
+    cursor: pointer;
+} 
+
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    /* font-weight: 600; */
+    color: var(--background-color);
+    transition: 0.3s ease-in-out;
+}
+a:hover{
+    text-decoration: underline;
+}
+ i{
+    color: var(--secondary-color);
+    cursor: pointer;
+    
+}
+  
+@media screen and (max-width: 768px) {
+    .profile-1{
+        width:30;
+        height: 30;
+        overflow: hidden;
+        flex-direction: column;
+    }
+}

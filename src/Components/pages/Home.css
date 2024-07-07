@@ -1,0 +1,151 @@
+
+.carousel .slide{
+    padding-top: 0%;
+    /* margin-top: 0%; */
+    height: 88vh;
+    
+}
+.carousel .control-dots{
+    display: none;
+}
+.carousel .control-dots .dot{
+    display: none;
+}
+
+.carousel ul.thumbs.animated{
+    display: none;
+}
+.image{
+    margin:0px auto;
+    height: 100%;
+    width: auto;
+    
+
+}
+.home-container { 
+    /* background-color: #f2ebd8; */
+    margin-top: 0%;
+    background-size:auto;
+    bottom: 0px;
+    margin-top: -45px;
+    padding-left: 30px;
+    padding-top: 30px;
+ } 
+ .image2 img{
+      /* opacity: 0.6; */
+      padding-left: 20px;
+      width: 700px; 
+      height: 500px;
+      /* margin-top: -0px; */
+ }
+ 
+
+ .welcome-section { 
+    flex-direction: column;
+      
+} 
+
+.secter{
+    
+    flex-direction: column;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+}
+.feedback-1{
+    background-image: url(https://media.istockphoto.com/id/480800826/photo/abstract-blur-coffee-shop-background.jpg?s=612x612&w=0&k=20&c=lSwsAGEP9KDx6gmhEqLUcpQtsGCBJm8P7WQ32qDNabY=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.feedback{
+    justify-content: center;
+    /* margin-top: 50px; */
+    padding-top: 100px;
+}
+.customer-con{
+    justify-content: center;
+    width: 600px;
+    margin-left: 348px;
+    
+}
+.profile-1{
+    /* background-color:var(--secondary-color); */
+    justify-content: space-between;
+    /* height: 100%; */
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 10px; 
+    padding-bottom: 150px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+.Partners{
+    
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 240px;
+    /* margin-top: 30px; */
+    background-size: cover;
+    /* background-color: var(--primary-color); */
+    background-image: url(https://cdn.pixabay.com/photo/2023/04/01/21/11/tunnel-7893124_1280.jpg);
+    background-size:100% 100%;
+    color: var(--secondary-color);
+    /* height:400px; */
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .cards{
+        flex-direction: column;
+        background-size: cover;
+    }
+    .carousel{
+        height: 30vh;
+        margin: -70px;
+    }
+    .image2 img{
+        display: none;
+    }   
+
+    
+    .carousel .slide img{
+        margin: 0%;
+        width:100vw;
+
+    }
+    .welcome-section {
+        margin-top: 0%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .welcome-text {
+        margin-bottom: 0;
+        flex: 1;
+    }
+    .text-part{ 
+        width:90vw;
+     } 
+
+     .home-container{
+        
+        background-size: 150%;
+        background-position-x:center;
+        background-position: center;
+     }
+     .carousel .slide{
+        padding-top: 0%;
+        margin-top: 0%;
+        height: 30vh;
+        
+    }
+
+    .customer-con{
+        width: auto;
+        margin-left: auto;
+        
+    }
+    .Partners{
+         background-color: var(--primary-color);
+         background-image: none;
+         padding:0px
+    }
+}
